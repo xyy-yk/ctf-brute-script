@@ -45,7 +45,7 @@ def check_pwd(num):
 
 if __name__ == "__main__":
     print(f"===== {DIGITS}位数字密码爆破 =====")
-    print(f"目标地址: {URL}")
+    print(f"目标地址: {网站}")
     print(f"总组合数: {total} | 线程数: {THREADS}")
     print(f"输出模式: {'显示所有False' if SHOW_FALSE else '静默(仅进度/结果)'}\n")
 
